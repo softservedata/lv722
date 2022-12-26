@@ -14,7 +14,7 @@ public class MainController {
     /**
      * Method returns frontend page when application is built as one.
      *
-     * @return index page of frontend
+     * @return index page of frontend.
      */
     @GetMapping("/")
     public String index() {
