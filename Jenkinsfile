@@ -34,9 +34,11 @@ pipeline {
                         bat 'java -jar ./target/lv722contact.war'
                     }
                 }
-                steps {
-                    sleep 20 // seconds
-                   bat 'mvn verify -DskipUnitTests'
+                stage('Integration Test') {}
+                    steps {
+                        sleep 20 // seconds
+                       bat 'mvn verify -DskipUnitTests'
+                    }
                 }
             }
         }
