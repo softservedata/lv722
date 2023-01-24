@@ -10,6 +10,7 @@ import okhttp3.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Slf4j
-@SpringBootTest
+//@SpringBootTest
 public class RestIT {
 
     @DisplayName("Reading all contacts by the api")
