@@ -10,19 +10,19 @@ pipeline {
         
         stage('Compile') {
             steps {
-                bat 'mvn -B -U compile'
+                bat 'mvn -B compile'
             }
         }
 
         stage('Unit Test') {
             steps {
-                bat 'mvn -B -U test'
+                bat 'mvn -B test'
             }
         }
 
         stage('Build') {
             steps {
-                bat 'mvn -B -U package'
+                bat 'mvn -B package'
             }
         }
 
