@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Slf4j
+@SpringBootTest
 public class RestIT {
 
     @DisplayName("Reading all contacts by the api")
