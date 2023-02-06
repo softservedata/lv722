@@ -40,7 +40,7 @@ public class RestIT {
         //
         request = new Request
                 .Builder()
-                .url("http://localhost:8080/api/contacts")
+                .url("http://localhost:8989/api/contacts")
                 .get()
                 .addHeader("accept","*/*")
                 .build();
